@@ -645,3 +645,12 @@ html {
     margin-bottom: 28px
   }
 }
+
+/* for mini mobile */
+@media screen and (max-width: 400px) {
+  /* projects section */
+  .projects .projects-container .card-container .card,
+  .projects .projects-container .card-container .card img {
+    width: 100%;
+  }
+}
