@@ -13,7 +13,7 @@ const setSidebar = action => {
       sidebar.classList.remove("sidebar-active");
       break;
     default:
-      console.error("parameter is not valid");
+      console.error("argument is not valid");
       break;
   }
 }
